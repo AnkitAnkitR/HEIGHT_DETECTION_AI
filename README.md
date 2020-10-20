@@ -25,4 +25,4 @@ A fixed laser point and triangular distance measurement (FLPTDM) constructs a no
 
 
 ## INSTALLATION_REQUIREMENTS
-There are some python packages that were essential for the completion of this project. All these packages and other requirements have been mentioned in [requirements.txt]()
+There are some python packages that were essential for the completion of this project. All these packages and other requirements have been mentioned in [requirements.txt](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/requirements.txt)
