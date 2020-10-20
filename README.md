@@ -16,13 +16,13 @@ A fixed laser point and triangular distance measurement (FLPTDM) constructs a no
 ## VISUALS
 > We attach some descriptive images here in order to describe the step-by-step progress.
 
-![Image](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/1.jpeg?raw=true)
-![Image](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/2.jpeg?raw=true)
-![Image](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/3.jpeg?raw=true)
-![Image](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/4.jpeg?raw=true)
+![Image](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/Images/1.jpeg?raw=true)
+![Image](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/Images/2.jpeg?raw=true)
+![Image](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/Images/3.jpeg?raw=true)
+![Image](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/Images/4.jpeg?raw=true)
 
 
 
 
 ## INSTALLATION_REQUIREMENTS
-The project is primarily based on image segmentation, which is a deep learning task done with the help of [pytorch](https://pytorch.org). 
+There are some python packages that were essential for the completion of this project. All these packages and other requirements have been mentioned in [requirements.txt]()
