@@ -14,7 +14,7 @@ A fixed laser point and triangular distance measurement (FLPTDM) constructs a no
 
 
 ## VISUALS
-> We attach some descriptive images here in order to describe the step-by-step progress.
+> We attach some descriptive images here in order to describe the step-by-step progress of height detection of images in the dataset.
 
 ![Image](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/Images/1.jpeg?raw=true)
 ![Image](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/Images/2.jpeg?raw=true)
@@ -22,6 +22,8 @@ A fixed laser point and triangular distance measurement (FLPTDM) constructs a no
 ![Image](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/Images/4.jpeg?raw=true)
 
 
+## DEMONSTRATION
+> A video for the demonstration of the ultimate goal of the project, i.e., live height detection through the use of webcamera, is attached [here](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/Code%20demo/Live%20Height%20Detection%20Code%20Demo.mp4) for reference of code implementation.
 
 
 ## INSTALLATION_REQUIREMENTS
