@@ -23,7 +23,7 @@ A fixed laser point and triangular distance measurement (FLPTDM) constructs a no
 
 
 ## DEMONSTRATION
-> A video for the demonstration of the ultimate goal of the project, i.e., live height detection through the use of webcamera, is attached [here](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/Code%20demo/Live%20Height%20Detection%20Code%20Demo.mp4) for reference of code implementation.
+> A video for the demonstration of the ultimate goal of the project, i.e., live height detection through the use of webcamera, is attached [here](https://drive.google.com/file/d/1ycx6WSUFdXFMj7C-MmESCZM8N7Bvallj/view?usp=sharing) for reference of code implementation.
 
 
 ## INSTALLATION_REQUIREMENTS
