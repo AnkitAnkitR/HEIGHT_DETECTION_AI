@@ -26,3 +26,6 @@ One of the typical approach somewhat similar to ours taken in the past is [descr
 
 ## INSTALLATION_REQUIREMENTS
 There are some python packages that were essential for the completion of this project. All these packages and other requirements have been mentioned in [requirements.txt](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/requirements.txt)
+
+## SHORTCOMINGS/ CHALLENGES
+It is not possible to calculate the number of pixels per metric unless the distance to the object and camera is known. Even though we may be pointing the camera straight to the human figure, the distance from the camera to the person changes as the incident angle changes, thus, every given point on the body is at a different distance from the camera. This variation in distance needs to be taken care of by taking the help of some complex trigonometry.
