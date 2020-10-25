@@ -10,8 +10,6 @@ We have used the [Mask R-CNN model](https://arxiv.org/pdf/1703.06870.pdf), and t
 Thereafter, we look at the possibility of real-time height detection through this method by the use of web camera. The video is processed in a frame-by-frame manner, and the height of the person in front of the camera is calculated and printed (in pixels). <br/>
 One of the typical approach somewhat similar to ours taken in the past is [described](http://ij3c.ncuteecs.org/volume/paperfile/4-3/IJ3C_6.pdf).
 
-A fixed laser point and triangular distance measurement (FLPTDM) constructs a non-contact height measurement scheme. We calculate the distance between the laser beam projection image and the image’s center to obtain the measured length. In hardware, a laser beam is used for signal emission, and a digital camera is used as the signal detection. The distance between the laser beam projection image and the center of the image is calculated to get the measured length. On the other hand, an offset compensation data is used to calibrate the error and increase the measurement precision. We simply use a laser pointer and a camera associated with image detection techniques to obtain a precise human height measurement.
-
 
 ## VISUALS
 > We attach some descriptive images here in order to describe the step-by-step progress of height detection of images in the dataset.
