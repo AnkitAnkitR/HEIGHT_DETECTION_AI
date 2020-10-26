@@ -8,6 +8,10 @@ This is a course project done for the course of Artificial Intelligence under th
 
 We have used the [Mask R-CNN model](https://arxiv.org/pdf/1703.06870.pdf), and trained it on the [Penn-Fudan database](https://www.cis.upenn.edu/~jshi/ped_html/). Firstly, the [human images](https://www.cis.upenn.edu/~jshi/ped_html/pageshow1.html) are segmented from the background. The mask image generated is then progressed through post-image processing to find the contours of the image. The difference between the topmost and the bottommost y-coordinates gives us the height of the person in pixel units. This can be converted to SI Units using some corelations between the camera's focal length, distance of the human from the camera and the height of the camera. <br/>
 
+We can calculate the height of a person in our preferred metric by comparing the dimensions (in pixels) of a reference object of known size with that of the human. PPI stands for Pixels Per Inch and is a metric typically used to describe the pixel density, and that could be useful to convert the height into SI units. Mathematically,
+ pixels_per_metric = object_width/known_width <br/>
+
+
 Thereafter, we look at the possibility of real-time height detection through this method by the use of web camera. The video is processed in a frame-by-frame manner, and the height of the person in front of the camera is calculated and printed (in pixels). <br/>
 
 One approach taken in the past somewhat similar to ours is [described](http://ij3c.ncuteecs.org/volume/paperfile/4-3/IJ3C_6.pdf).
