@@ -27,5 +27,7 @@ One approach taken in the past somewhat similar to ours is [described](http://ij
 ## INSTALLATION_REQUIREMENTS
 There are some python packages that were essential for the completion of this project. All these packages and other requirements have been mentioned in [requirements.txt](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/requirements.txt)
 
-## SHORTCOMINGS/ CHALLENGES
-It is not possible to calculate the number of pixels per metric unless the distance to the object and camera is known. Even though we may be pointing the camera straight to the human figure, the distance from the camera to the person changes as the incident angle changes, thus, every given point on the body is at a different distance from the camera. This variation in distance needs to be taken care of by taking the help of some complex trigonometry.
+## PROJET STATUS AND CHALLENGES FACED
+It is not possible to calculate the number of pixels per metric unless the distance to the object and camera is known. Even though we may be pointing the camera straight to the human figure, the distance from the camera to the person changes as the incident angle changes, thus, every given point on the body is at a different distance from the camera. This variation in distance needs to be taken care of by taking the help of some complex trigonometry. <br/>
+
+Most real-world applications require blazingly fast inference time, varying anywhere from a few milliseconds to one second. As noticed from the demonstrations, there is some lag between the real time media captured by the webcam and the output window showing the mask image. This is because the processing power requirements of the program are higher than the user’s machine. As a result of the lag, some of the input frames get skipped.
