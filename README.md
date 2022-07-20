@@ -31,7 +31,7 @@ One approach taken in the past somewhat similar to ours is [described](http://ij
 ## INSTALLATION_REQUIREMENTS
 There are some python packages that were essential for the completion of this project. All these packages and other requirements have been mentioned in [requirements.txt](https://github.com/AnkitAnkitR/HEIGHT_DETECTION_AI/blob/main/requirements.txt)
 
-## PROJET STATUS AND CHALLENGES FACED
+## PROJECT STATUS AND CHALLENGES FACED
 
 Most real-world applications require blazingly fast inference time, varying anywhere from a few milliseconds to one second. As noticed from the demonstrations, there is some lag between the real time media captured by the webcam and the output window showing the mask image. This is because the processing power requirements of the program are higher than the user’s machine. As a result of the lag, some of the input frames get skipped.  <br/>
 
