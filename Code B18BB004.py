@@ -1,5 +1,3 @@
-
-
 import torchvision
 from torchvision.models.detection.faster_rcnn import FastRCNNPredictor
 from torchvision.models.detection.mask_rcnn import MaskRCNNPredictor
@@ -8,8 +6,7 @@ import numpy as np
 import cv2
 import torchvision.transforms as T
 
-
-      
+     
 def get_instance_segmentation_model(num_classes):
     # load an instance segmentation model pre-trained on COCO
     model = torchvision.models.detection.maskrcnn_resnet50_fpn(pretrained=False)
