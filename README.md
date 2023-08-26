@@ -1,4 +1,4 @@
-# HEIGHT_DETECTION
+# HEIGHT DETECTION
 ## Artificial Intelligence Course Project
 
 > The project is based on height detection of humans from an image dataset and thereby extending the possibilities to live detection of height through a video camera of known focal length!
